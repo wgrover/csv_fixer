@@ -11,3 +11,17 @@ python3 csv_fixer.py filename.csv
 ```
 
 where `filename.csv` is the name of the file you want to fix.  The fixed file will be saved in the same directory as the python code with the name `filename_FIXED.csv`.
+
+To build the MacOS "droplet" application, install py2app using
+
+```
+pip3 install py2app
+```
+
+then build the app by running
+
+```
+python3 setup.py py2app
+```
+
+If all goes well, the application will be created inside a `dist` subfolder.  Drag your CSV file onto that application to process it.
