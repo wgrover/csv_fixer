@@ -24,4 +24,4 @@ then build the app by running
 python3 setup.py py2app
 ```
 
-If all goes well, the application will be created inside a `dist` subfolder.  Drag your CSV file onto that application to process it.
+If all goes well, the application will be created inside a `dist` subfolder.  Drag your CSV file onto that application to fix the file.  The resulting fixed CSV file will be located in the same directory as your original CSV file.
